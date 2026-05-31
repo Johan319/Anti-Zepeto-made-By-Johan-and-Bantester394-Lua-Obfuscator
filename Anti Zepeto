@@ -4,7 +4,7 @@ local _t2=_T({66,97,110,116,101,115,116,101,114,32,51,57,52,32,97,110,100,32,74,
 local _t3=_T({66,97,110,116,101,115,116,101,114,32,72,117,98,32,45,32,75,101,121,32,82,101,113,117,105,114,101,100})
 local _t4=_T({66,97,110,116,101,115,116,101,114,72,117,98})
 local redzlib = loadstring(game:HttpGet("https://api.lumi.new/v1/functions/p411936918378364928/getScript?id=69b47c6255502c3e6742f863"))()
-local function _dec(t) local _grwuep="" for _,v in ipairs(t) do _grwuep=_grwuep..string._rcgnmr(v) end return _grwuep end
+local function _dec(t) local _grwuep="" for _,v in ipairs(t) do _grwuep=_grwuep..string.char(v) end return _grwuep end
 local _validKey = _dec({77,105,108,105,116,97,114,121,95,98,97,99,107,117,112,95,97,110,116,105,122,101,112,101,116,111})
 local _keyGui = Instance.new("ScreenGui")
 _keyGui.Name = "KeySystem"
