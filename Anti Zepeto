@@ -56,7 +56,7 @@ Window:AddMinimizeButton({
 })
 local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://15309138473" })
 InfoTab:AddSection({ "Credits" })
-InfoTab:AddParagraph({ "Credits by Johan", "" })
+InfoTab:AddParagraph({ "Made by Scripter Johan", "" })
 InfoTab:AddParagraph({ "Discord", "https://discord.gg/gAPNEKvvp" })
 InfoTab:AddSection({ "Rejoin" })
 InfoTab:AddButton({
